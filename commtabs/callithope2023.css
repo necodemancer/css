@@ -100,13 +100,13 @@
 }
 
 .tab-admin *:is(ol, ul) li::marker {
-  color: var(--accent2);
+  color: var(--accent2)!important;
 }
 
 .tab-admin *:is(ol, ul) li:nth-of-type(even)::marker {
-  color: var(--t-accent2);
+  color: var(--t-accent2)!important;
 }
 
 .tab-admin ol {
-  margin-left: 30px;
+  margin-left: 30px!important;
 }
