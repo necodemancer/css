@@ -16,8 +16,6 @@
   background: var(--dbckg1);
   padding: 15px;
   gap: 7px;
-  
-   /* Adjust the column sizes as needed */
 }
 
 .tbheader span {
