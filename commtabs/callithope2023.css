@@ -108,3 +108,40 @@
 .tab-admin ol {
   margin-left: 30px!important;
 }
+.tab-admin aviso {
+  border: var(--border1);
+  background: var(--dbckg0);
+  display: block;
+  line-height: 0;
+  padding: 20px;
+  margin-block: 20px;
+}
+
+.tab-admin aviso>br {
+  display: none;
+}
+
+.tab-admin aviso>i {
+  float: left;
+  border: var(--border1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 0 0;
+  background: var(--dbckg2);
+}
+
+.tab-admin aviso txt {
+  line-height: calc(var(--fs-body) + 3px);
+  font-size: var(--fs-small);
+}
+
+.tab-admin aviso+br, .tab-admin aviso+br+br {
+  display: none;
+}
+
+.tab-admin br+aviso {
+  margin-top: 0;
+}
